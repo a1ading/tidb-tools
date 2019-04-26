@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pingcap/tidb-tools/pkg/column-mapping"
+	"github.com/a1ading/tidb-tools/pkg/column-mapping"
 
 	"github.com/pingcap/errors"
 	"github.com/pingcap/parser"
