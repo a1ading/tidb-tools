@@ -16,9 +16,9 @@ package diff
 import (
 	"context"
 
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
+	"github.com/a1ading/tidb-tools/pkg/importer"
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/importer"
 )
 
 var _ = Suite(&testChunkSuite{})

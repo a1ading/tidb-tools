@@ -16,8 +16,8 @@ package router
 import (
 	"strings"
 
+	"github.com/a1ading/tidb-tools/pkg/table-rule-selector"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb-tools/pkg/table-rule-selector"
 )
 
 // TableRule is a rule to route schema/table to target schema/table

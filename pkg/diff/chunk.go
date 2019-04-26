@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 	"go.uber.org/zap"
 )
 

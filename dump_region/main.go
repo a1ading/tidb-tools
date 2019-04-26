@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	"github.com/pingcap/kvproto/pkg/metapb"
 	pd "github.com/pingcap/pd/client"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 	"github.com/pingcap/tidb/tablecodec"
 	"github.com/pingcap/tidb/util/codec"
 )

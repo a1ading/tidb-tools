@@ -22,11 +22,11 @@ import (
 	"strings"
 	"unicode"
 
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
+	"github.com/a1ading/tidb-tools/pkg/ddl-checker"
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/ddl-checker"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 )
 
 var (

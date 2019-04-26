@@ -19,10 +19,10 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/a1ading/tidb-tools/pkg/etcd"
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb-tools/pkg/etcd"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 	"github.com/pingcap/tidb-tools/tidb-binlog/node"
 	"go.uber.org/zap"
 )

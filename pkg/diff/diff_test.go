@@ -19,10 +19,10 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
+	"github.com/a1ading/tidb-tools/pkg/importer"
 	_ "github.com/go-sql-driver/mysql"
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/importer"
 )
 
 func TestClient(t *testing.T) {

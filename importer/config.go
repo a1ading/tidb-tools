@@ -18,9 +18,9 @@ import (
 	"fmt"
 
 	"github.com/BurntSushi/toml"
+	"github.com/a1ading/tidb-tools/pkg/importer"
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb-tools/pkg/importer"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 )
 
 // NewConfig creates a new config.

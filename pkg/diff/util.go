@@ -14,9 +14,9 @@
 package diff
 
 import (
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 	"github.com/pingcap/tidb/types"
 )
 

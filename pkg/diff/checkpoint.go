@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
 	"go.uber.org/zap"
 )
 

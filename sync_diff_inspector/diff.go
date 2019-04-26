@@ -19,12 +19,12 @@ import (
 	"os"
 	"regexp"
 
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
+	"github.com/a1ading/tidb-tools/pkg/diff"
+	router "github.com/a1ading/tidb-tools/pkg/table-router"
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	"github.com/pingcap/tidb-tools/pkg/diff"
-	router "github.com/pingcap/tidb-tools/pkg/table-router"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 	"go.uber.org/zap"
 )
 

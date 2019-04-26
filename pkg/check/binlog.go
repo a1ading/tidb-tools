@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
 )
 
 // MySQLBinlogEnableChecker checks whether `log_bin` variable is enabled in MySQL.

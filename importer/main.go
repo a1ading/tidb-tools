@@ -17,10 +17,10 @@ import (
 	"flag"
 	"os"
 
+	"github.com/a1ading/tidb-tools/pkg/importer"
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb-tools/pkg/importer"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 	"go.uber.org/zap"
 )
 

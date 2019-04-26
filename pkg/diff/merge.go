@@ -16,9 +16,9 @@ package diff
 import (
 	"strconv"
 
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
 	"github.com/pingcap/log"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
 	"go.uber.org/zap"
 )
 

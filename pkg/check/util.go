@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 )
 
 // MySQLVersion represents MySQL version number.

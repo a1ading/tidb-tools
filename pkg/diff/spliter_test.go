@@ -17,8 +17,8 @@ import (
 	"fmt"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
 	. "github.com/pingcap/check"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
 )
 
 var _ = Suite(&testSpliterSuite{})

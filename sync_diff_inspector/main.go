@@ -20,10 +20,10 @@ import (
 	"os"
 	"time"
 
+	"github.com/a1ading/tidb-tools/pkg/utils"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
-	"github.com/pingcap/tidb-tools/pkg/utils"
 	"go.uber.org/zap"
 )
 

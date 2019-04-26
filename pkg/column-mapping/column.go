@@ -19,8 +19,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/a1ading/tidb-tools/pkg/table-rule-selector"
 	"github.com/pingcap/errors"
-	"github.com/pingcap/tidb-tools/pkg/table-rule-selector"
 )
 
 var (

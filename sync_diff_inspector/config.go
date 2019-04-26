@@ -19,11 +19,11 @@ import (
 	"fmt"
 
 	"github.com/BurntSushi/toml"
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
+	router "github.com/a1ading/tidb-tools/pkg/table-router"
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
 	"github.com/pingcap/parser/model"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
-	router "github.com/pingcap/tidb-tools/pkg/table-router"
 	"go.uber.org/zap"
 )
 

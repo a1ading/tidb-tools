@@ -16,7 +16,7 @@ package node
 import (
 	"fmt"
 
-	"github.com/pingcap/tidb-tools/pkg/utils"
+	"github.com/a1ading/tidb-tools/pkg/utils"
 )
 
 var (

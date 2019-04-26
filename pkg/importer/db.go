@@ -19,11 +19,11 @@ import (
 	"math"
 	"strconv"
 
+	"github.com/a1ading/tidb-tools/pkg/dbutil"
 	_ "github.com/go-sql-driver/mysql" // for mysql driver
 	"github.com/pingcap/errors"
 	"github.com/pingcap/log"
 	"github.com/pingcap/parser/mysql"
-	"github.com/pingcap/tidb-tools/pkg/dbutil"
 	"go.uber.org/zap"
 )
 
