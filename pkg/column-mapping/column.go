@@ -25,10 +25,10 @@ import (
 
 var (
 	// for partition ID, ref definition of partitionID
-	instanceIDBitSize       = 4
+	instanceIDBitSize       = 7
 	schemaIDBitSize         = 7
 	tableIDBitSize          = 8
-	maxOriginID       int64 = 17592186044416
+	maxOriginID       int64 = 2199023255550
 )
 
 // SetPartitionRule sets bit size of schema ID and table ID
