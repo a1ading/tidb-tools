@@ -25,9 +25,9 @@ import (
 
 var (
 	// for partition ID, ref definition of partitionID
-	instanceIDBitSize       = 7
+	instanceIDBitSize       = 5
 	schemaIDBitSize         = 5
-	tableIDBitSize          = 10
+	tableIDBitSize          = 12
 	maxOriginID       int64 = 2199023255550
 )
 
